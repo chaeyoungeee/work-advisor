@@ -1,0 +1,300 @@
+{"row": 0, "case_id": "SYN-IT-DBA-0001", "category": "DB 계정·권한", "title": "계약계 DB 신규 조회 계정 발급", "status": "완료"}
+{"row": 1, "case_id": "SYN-IT-IAM-0002", "category": "사내 계정·그룹웨어", "title": "그룹웨어 휴면 계정 복구", "status": "완료"}
+{"row": 2, "case_id": "SYN-IT-VPN-0003", "category": "VPN·원격접속", "title": "VDI 협력사 기간제 원격접속", "status": "완료"}
+{"row": 3, "case_id": "SYN-IT-SW-0004", "category": "프로그램 설치", "title": "업무용 PC 승인되지 않은 프로그램 예외 설치", "status": "보완 후 완료"}
+{"row": 4, "case_id": "SYN-IT-SRV-0005", "category": "서버 접근·작업", "title": "개발 서버 정기점검 작업 권한", "status": "반려"}
+{"row": 5, "case_id": "SYN-IT-NET-0006", "category": "방화벽·네트워크", "title": "대외계 방화벽 서버 간 포트 오픈", "status": "진행 중"}
+{"row": 6, "case_id": "SYN-IT-CHG-0007", "category": "배포·변경관리", "title": "고객 포털 DB 스키마 변경", "status": "완료"}
+{"row": 7, "case_id": "SYN-IT-BAT-0008", "category": "배치·인터페이스 장애", "title": "보험료 수납 배치 전문 미수신 확인", "status": "완료"}
+{"row": 8, "case_id": "SYN-IT-DAT-0009", "category": "개인정보·데이터 추출", "title": "데이터웨어하우스 추출 파일 재전송", "status": "완료"}
+{"row": 9, "case_id": "SYN-IT-CRT-0010", "category": "인증서·암호화키", "title": "전자서명 시스템 대외기관 공개키 교체", "status": "보완 후 완료"}
+{"row": 10, "case_id": "SYN-IT-INC-0011", "category": "IT 장애·문의", "title": "사내 포털 로그인 불가", "status": "반려"}
+{"row": 11, "case_id": "SYN-IT-DBA-0012", "category": "DB 계정·권한", "title": "계약계 DB 퇴직자 계정 회수", "status": "진행 중"}
+{"row": 12, "case_id": "SYN-IT-IAM-0013", "category": "사내 계정·그룹웨어", "title": "그룹웨어 겸직자 추가 권한", "status": "완료"}
+{"row": 13, "case_id": "SYN-IT-VPN-0014", "category": "VPN·원격접속", "title": "사내 VPN 재택근무 VPN 신규 신청", "status": "완료"}
+{"row": 14, "case_id": "SYN-IT-SW-0015", "category": "프로그램 설치", "title": "업무용 PC 통계 분석 도구 설치", "status": "보완 후 완료"}
+{"row": 15, "case_id": "SYN-IT-SRV-0016", "category": "서버 접근·작업", "title": "검증 서버 운영 서버 로그 조회", "status": "반려"}
+{"row": 16, "case_id": "SYN-IT-NET-0017", "category": "방화벽·네트워크", "title": "로드밸런서 로드밸런서 대상 추가", "status": "진행 중"}
+{"row": 17, "case_id": "SYN-IT-CHG-0018", "category": "배포·변경관리", "title": "모바일 앱 백엔드 설정값 변경", "status": "완료"}
+{"row": 18, "case_id": "SYN-IT-BAT-0019", "category": "배치·인터페이스 장애", "title": "보험료 수납 배치 배치 실패 재처리", "status": "완료"}
+{"row": 19, "case_id": "SYN-IT-DAT-0020", "category": "개인정보·데이터 추출", "title": "데이터웨어하우스 개인정보 반출 요청", "status": "완료"}
+{"row": 20, "case_id": "SYN-IT-CRT-0021", "category": "인증서·암호화키", "title": "전자서명 시스템 인증서 갱신", "status": "보완 후 완료"}
+{"row": 21, "case_id": "SYN-IT-INC-0022", "category": "IT 장애·문의", "title": "콜센터 시스템 간헐적 세션 종료", "status": "반려"}
+{"row": 22, "case_id": "SYN-IT-DBA-0023", "category": "DB 계정·권한", "title": "보상계 DB 권한 기간 연장", "status": "진행 중"}
+{"row": 23, "case_id": "SYN-IT-IAM-0024", "category": "사내 계정·그룹웨어", "title": "Active Directory 조직 이동에 따른 권한 변경", "status": "완료"}
+{"row": 24, "case_id": "SYN-IT-VPN-0025", "category": "VPN·원격접속", "title": "사내 VPN 원격접속 기간 연장", "status": "완료"}
+{"row": 25, "case_id": "SYN-IT-SW-0026", "category": "프로그램 설치", "title": "개발자 PC 파일 압축 프로그램 설치", "status": "완료"}
+{"row": 26, "case_id": "SYN-IT-SRV-0027", "category": "서버 접근·작업", "title": "검증 서버 서버 SSH 권한 신청", "status": "반려"}
+{"row": 27, "case_id": "SYN-IT-NET-0028", "category": "방화벽·네트워크", "title": "로드밸런서 DNS 레코드 등록", "status": "진행 중"}
+{"row": 28, "case_id": "SYN-IT-CHG-0029", "category": "배포·변경관리", "title": "계약관리 시스템 긴급 오류 수정 배포", "status": "완료"}
+{"row": 29, "case_id": "SYN-IT-BAT-0030", "category": "배치·인터페이스 장애", "title": "보험금 지급 배치 재처리 권한 신청", "status": "완료"}
+{"row": 30, "case_id": "SYN-IT-DAT-0031", "category": "개인정보·데이터 추출", "title": "분석 샌드박스 외부 제출 자료 생성", "status": "완료"}
+{"row": 31, "case_id": "SYN-IT-CRT-0032", "category": "인증서·암호화키", "title": "API 게이트웨이 TLS 인증서 신규 발급", "status": "보완 후 완료"}
+{"row": 32, "case_id": "SYN-IT-INC-0033", "category": "IT 장애·문의", "title": "콜센터 시스템 출력물 생성 실패", "status": "반려"}
+{"row": 33, "case_id": "SYN-IT-DBA-0034", "category": "DB 계정·권한", "title": "보상계 DB 계정 잠금 해제", "status": "진행 중"}
+{"row": 34, "case_id": "SYN-IT-IAM-0035", "category": "사내 계정·그룹웨어", "title": "Active Directory 신규 입사자 계정 생성", "status": "완료"}
+{"row": 35, "case_id": "SYN-IT-VPN-0036", "category": "VPN·원격접속", "title": "사내 VPN 해외 출장 중 접속 허용", "status": "완료"}
+{"row": 36, "case_id": "SYN-IT-SW-0037", "category": "프로그램 설치", "title": "개발자 PC 개발 IDE 설치", "status": "완료"}
+{"row": 37, "case_id": "SYN-IT-SRV-0038", "category": "서버 접근·작업", "title": "운영 WAS 임시 관리자 권한 신청", "status": "보완 후 완료"}
+{"row": 38, "case_id": "SYN-IT-NET-0039", "category": "방화벽·네트워크", "title": "사내 DNS 방화벽 정책 기간 연장", "status": "반려"}
+{"row": 39, "case_id": "SYN-IT-CHG-0040", "category": "배포·변경관리", "title": "계약관리 시스템 정기 운영 배포", "status": "완료"}
+{"row": 40, "case_id": "SYN-IT-BAT-0041", "category": "배치·인터페이스 장애", "title": "보험금 지급 배치 마감 배치 지연 대응", "status": "완료"}
+{"row": 41, "case_id": "SYN-IT-DAT-0042", "category": "개인정보·데이터 추출", "title": "분석 샌드박스 민원 확인용 고객정보 조회", "status": "완료"}
+{"row": 42, "case_id": "SYN-IT-CRT-0043", "category": "인증서·암호화키", "title": "대외기관 연계 서버 만료 인증서 긴급 교체", "status": "보완 후 완료"}
+{"row": 43, "case_id": "SYN-IT-INC-0044", "category": "IT 장애·문의", "title": "계약관리 시스템 업무 화면 오류", "status": "반려"}
+{"row": 44, "case_id": "SYN-IT-DBA-0045", "category": "DB 계정·권한", "title": "고객정보계 DB 운영 DB 긴급 조회 권한", "status": "진행 중"}
+{"row": 45, "case_id": "SYN-IT-IAM-0046", "category": "사내 계정·그룹웨어", "title": "메일 시스템 퇴직자 계정 종료", "status": "완료"}
+{"row": 46, "case_id": "SYN-IT-VPN-0047", "category": "VPN·원격접속", "title": "협력사 원격접속 게이트웨이 VPN 접속 오류", "status": "완료"}
+{"row": 47, "case_id": "SYN-IT-SW-0048", "category": "프로그램 설치", "title": "VDI 표준 이미지 DB 접속 도구 설치", "status": "완료"}
+{"row": 48, "case_id": "SYN-IT-SRV-0049", "category": "서버 접근·작업", "title": "운영 WAS 서버 재기동 요청", "status": "보완 후 완료"}
+{"row": 49, "case_id": "SYN-IT-NET-0050", "category": "방화벽·네트워크", "title": "내부 방화벽 대외기관 IP 허용", "status": "반려"}
+{"row": 50, "case_id": "SYN-IT-CHG-0051", "category": "배포·변경관리", "title": "보험금 지급 시스템 배포 롤백", "status": "진행 중"}
+{"row": 51, "case_id": "SYN-IT-BAT-0052", "category": "배치·인터페이스 장애", "title": "대외 신용정보 연계 중복 전송 점검", "status": "완료"}
+{"row": 52, "case_id": "SYN-IT-DAT-0053", "category": "개인정보·데이터 추출", "title": "파일전송 시스템 업무 분석용 데이터 추출", "status": "완료"}
+{"row": 53, "case_id": "SYN-IT-CRT-0054", "category": "인증서·암호화키", "title": "대외기관 연계 서버 암호화키 접근 신청", "status": "보완 후 완료"}
+{"row": 54, "case_id": "SYN-IT-INC-0055", "category": "IT 장애·문의", "title": "계약관리 시스템 화면 응답 지연", "status": "반려"}
+{"row": 55, "case_id": "SYN-IT-DBA-0056", "category": "DB 계정·권한", "title": "고객정보계 DB 신규 조회 계정 발급", "status": "진행 중"}
+{"row": 56, "case_id": "SYN-IT-IAM-0057", "category": "사내 계정·그룹웨어", "title": "통합 IAM 휴면 계정 복구", "status": "완료"}
+{"row": 57, "case_id": "SYN-IT-VPN-0058", "category": "VPN·원격접속", "title": "협력사 원격접속 게이트웨이 협력사 기간제 원격접속", "status": "완료"}
+{"row": 58, "case_id": "SYN-IT-SW-0059", "category": "프로그램 설치", "title": "VDI 표준 이미지 승인되지 않은 프로그램 예외 설치", "status": "완료"}
+{"row": 59, "case_id": "SYN-IT-SRV-0060", "category": "서버 접근·작업", "title": "배치 서버 정기점검 작업 권한", "status": "보완 후 완료"}
+{"row": 60, "case_id": "SYN-IT-NET-0061", "category": "방화벽·네트워크", "title": "내부 방화벽 서버 간 포트 오픈", "status": "반려"}
+{"row": 61, "case_id": "SYN-IT-CHG-0062", "category": "배포·변경관리", "title": "보험금 지급 시스템 DB 스키마 변경", "status": "진행 중"}
+{"row": 62, "case_id": "SYN-IT-BAT-0063", "category": "배치·인터페이스 장애", "title": "대외 신용정보 연계 전문 미수신 확인", "status": "완료"}
+{"row": 63, "case_id": "SYN-IT-DAT-0064", "category": "개인정보·데이터 추출", "title": "고객정보계 추출 파일 재전송", "status": "완료"}
+{"row": 64, "case_id": "SYN-IT-CRT-0065", "category": "인증서·암호화키", "title": "웹 서버 대외기관 공개키 교체", "status": "완료"}
+{"row": 65, "case_id": "SYN-IT-INC-0066", "category": "IT 장애·문의", "title": "보험금 지급 시스템 로그인 불가", "status": "반려"}
+{"row": 66, "case_id": "SYN-IT-DBA-0067", "category": "DB 계정·권한", "title": "데이터웨어하우스 퇴직자 계정 회수", "status": "진행 중"}
+{"row": 67, "case_id": "SYN-IT-IAM-0068", "category": "사내 계정·그룹웨어", "title": "통합 IAM 겸직자 추가 권한", "status": "완료"}
+{"row": 68, "case_id": "SYN-IT-VPN-0069", "category": "VPN·원격접속", "title": "VDI 재택근무 VPN 신규 신청", "status": "완료"}
+{"row": 69, "case_id": "SYN-IT-SW-0070", "category": "프로그램 설치", "title": "업무용 PC 통계 분석 도구 설치", "status": "완료"}
+{"row": 70, "case_id": "SYN-IT-SRV-0071", "category": "서버 접근·작업", "title": "개발 서버 운영 서버 로그 조회", "status": "보완 후 완료"}
+{"row": 71, "case_id": "SYN-IT-NET-0072", "category": "방화벽·네트워크", "title": "대외계 방화벽 로드밸런서 대상 추가", "status": "반려"}
+{"row": 72, "case_id": "SYN-IT-CHG-0073", "category": "배포·변경관리", "title": "고객 포털 설정값 변경", "status": "진행 중"}
+{"row": 73, "case_id": "SYN-IT-BAT-0074", "category": "배치·인터페이스 장애", "title": "회계 전송 인터페이스 배치 실패 재처리", "status": "완료"}
+{"row": 74, "case_id": "SYN-IT-DAT-0075", "category": "개인정보·데이터 추출", "title": "고객정보계 개인정보 반출 요청", "status": "완료"}
+{"row": 75, "case_id": "SYN-IT-CRT-0076", "category": "인증서·암호화키", "title": "웹 서버 인증서 갱신", "status": "완료"}
+{"row": 76, "case_id": "SYN-IT-INC-0077", "category": "IT 장애·문의", "title": "보험금 지급 시스템 간헐적 세션 종료", "status": "보완 후 완료"}
+{"row": 77, "case_id": "SYN-IT-DBA-0078", "category": "DB 계정·권한", "title": "계약계 DB 권한 기간 연장", "status": "반려"}
+{"row": 78, "case_id": "SYN-IT-IAM-0079", "category": "사내 계정·그룹웨어", "title": "그룹웨어 조직 이동에 따른 권한 변경", "status": "완료"}
+{"row": 79, "case_id": "SYN-IT-VPN-0080", "category": "VPN·원격접속", "title": "VDI 원격접속 기간 연장", "status": "완료"}
+{"row": 80, "case_id": "SYN-IT-SW-0081", "category": "프로그램 설치", "title": "업무용 PC 파일 압축 프로그램 설치", "status": "완료"}
+{"row": 81, "case_id": "SYN-IT-SRV-0082", "category": "서버 접근·작업", "title": "개발 서버 서버 SSH 권한 신청", "status": "보완 후 완료"}
+{"row": 82, "case_id": "SYN-IT-NET-0083", "category": "방화벽·네트워크", "title": "대외계 방화벽 DNS 레코드 등록", "status": "반려"}
+{"row": 83, "case_id": "SYN-IT-CHG-0084", "category": "배포·변경관리", "title": "고객 포털 긴급 오류 수정 배포", "status": "진행 중"}
+{"row": 84, "case_id": "SYN-IT-BAT-0085", "category": "배치·인터페이스 장애", "title": "보험료 수납 배치 재처리 권한 신청", "status": "완료"}
+{"row": 85, "case_id": "SYN-IT-DAT-0086", "category": "개인정보·데이터 추출", "title": "데이터웨어하우스 외부 제출 자료 생성", "status": "완료"}
+{"row": 86, "case_id": "SYN-IT-CRT-0087", "category": "인증서·암호화키", "title": "전자서명 시스템 TLS 인증서 신규 발급", "status": "완료"}
+{"row": 87, "case_id": "SYN-IT-INC-0088", "category": "IT 장애·문의", "title": "사내 포털 출력물 생성 실패", "status": "보완 후 완료"}
+{"row": 88, "case_id": "SYN-IT-DBA-0089", "category": "DB 계정·권한", "title": "계약계 DB 계정 잠금 해제", "status": "반려"}
+{"row": 89, "case_id": "SYN-IT-IAM-0090", "category": "사내 계정·그룹웨어", "title": "그룹웨어 신규 입사자 계정 생성", "status": "진행 중"}
+{"row": 90, "case_id": "SYN-IT-VPN-0091", "category": "VPN·원격접속", "title": "사내 VPN 해외 출장 중 접속 허용", "status": "완료"}
+{"row": 91, "case_id": "SYN-IT-SW-0092", "category": "프로그램 설치", "title": "업무용 PC 개발 IDE 설치", "status": "완료"}
+{"row": 92, "case_id": "SYN-IT-SRV-0093", "category": "서버 접근·작업", "title": "검증 서버 임시 관리자 권한 신청", "status": "보완 후 완료"}
+{"row": 93, "case_id": "SYN-IT-NET-0094", "category": "방화벽·네트워크", "title": "로드밸런서 방화벽 정책 기간 연장", "status": "반려"}
+{"row": 94, "case_id": "SYN-IT-CHG-0095", "category": "배포·변경관리", "title": "모바일 앱 백엔드 정기 운영 배포", "status": "진행 중"}
+{"row": 95, "case_id": "SYN-IT-BAT-0096", "category": "배치·인터페이스 장애", "title": "보험료 수납 배치 마감 배치 지연 대응", "status": "완료"}
+{"row": 96, "case_id": "SYN-IT-DAT-0097", "category": "개인정보·데이터 추출", "title": "데이터웨어하우스 민원 확인용 고객정보 조회", "status": "완료"}
+{"row": 97, "case_id": "SYN-IT-CRT-0098", "category": "인증서·암호화키", "title": "전자서명 시스템 만료 인증서 긴급 교체", "status": "완료"}
+{"row": 98, "case_id": "SYN-IT-INC-0099", "category": "IT 장애·문의", "title": "콜센터 시스템 업무 화면 오류", "status": "보완 후 완료"}
+{"row": 99, "case_id": "SYN-IT-DBA-0100", "category": "DB 계정·권한", "title": "보상계 DB 운영 DB 긴급 조회 권한", "status": "반려"}
+{"row": 100, "case_id": "SYN-IT-IAM-0101", "category": "사내 계정·그룹웨어", "title": "Active Directory 퇴직자 계정 종료", "status": "진행 중"}
+{"row": 101, "case_id": "SYN-IT-VPN-0102", "category": "VPN·원격접속", "title": "사내 VPN VPN 접속 오류", "status": "완료"}
+{"row": 102, "case_id": "SYN-IT-SW-0103", "category": "프로그램 설치", "title": "개발자 PC DB 접속 도구 설치", "status": "완료"}
+{"row": 103, "case_id": "SYN-IT-SRV-0104", "category": "서버 접근·작업", "title": "검증 서버 서버 재기동 요청", "status": "완료"}
+{"row": 104, "case_id": "SYN-IT-NET-0105", "category": "방화벽·네트워크", "title": "로드밸런서 대외기관 IP 허용", "status": "반려"}
+{"row": 105, "case_id": "SYN-IT-CHG-0106", "category": "배포·변경관리", "title": "계약관리 시스템 배포 롤백", "status": "진행 중"}
+{"row": 106, "case_id": "SYN-IT-BAT-0107", "category": "배치·인터페이스 장애", "title": "보험금 지급 배치 중복 전송 점검", "status": "완료"}
+{"row": 107, "case_id": "SYN-IT-DAT-0108", "category": "개인정보·데이터 추출", "title": "분석 샌드박스 업무 분석용 데이터 추출", "status": "완료"}
+{"row": 108, "case_id": "SYN-IT-CRT-0109", "category": "인증서·암호화키", "title": "API 게이트웨이 암호화키 접근 신청", "status": "완료"}
+{"row": 109, "case_id": "SYN-IT-INC-0110", "category": "IT 장애·문의", "title": "콜센터 시스템 화면 응답 지연", "status": "보완 후 완료"}
+{"row": 110, "case_id": "SYN-IT-DBA-0111", "category": "DB 계정·권한", "title": "보상계 DB 신규 조회 계정 발급", "status": "반려"}
+{"row": 111, "case_id": "SYN-IT-IAM-0112", "category": "사내 계정·그룹웨어", "title": "Active Directory 휴면 계정 복구", "status": "진행 중"}
+{"row": 112, "case_id": "SYN-IT-VPN-0113", "category": "VPN·원격접속", "title": "사내 VPN 협력사 기간제 원격접속", "status": "완료"}
+{"row": 113, "case_id": "SYN-IT-SW-0114", "category": "프로그램 설치", "title": "개발자 PC 승인되지 않은 프로그램 예외 설치", "status": "완료"}
+{"row": 114, "case_id": "SYN-IT-SRV-0115", "category": "서버 접근·작업", "title": "운영 WAS 정기점검 작업 권한", "status": "완료"}
+{"row": 115, "case_id": "SYN-IT-NET-0116", "category": "방화벽·네트워크", "title": "사내 DNS 서버 간 포트 오픈", "status": "보완 후 완료"}
+{"row": 116, "case_id": "SYN-IT-CHG-0117", "category": "배포·변경관리", "title": "계약관리 시스템 DB 스키마 변경", "status": "반려"}
+{"row": 117, "case_id": "SYN-IT-BAT-0118", "category": "배치·인터페이스 장애", "title": "보험금 지급 배치 전문 미수신 확인", "status": "완료"}
+{"row": 118, "case_id": "SYN-IT-DAT-0119", "category": "개인정보·데이터 추출", "title": "분석 샌드박스 추출 파일 재전송", "status": "완료"}
+{"row": 119, "case_id": "SYN-IT-CRT-0120", "category": "인증서·암호화키", "title": "대외기관 연계 서버 대외기관 공개키 교체", "status": "완료"}
+{"row": 120, "case_id": "SYN-IT-INC-0121", "category": "IT 장애·문의", "title": "계약관리 시스템 로그인 불가", "status": "보완 후 완료"}
+{"row": 121, "case_id": "SYN-IT-DBA-0122", "category": "DB 계정·권한", "title": "고객정보계 DB 퇴직자 계정 회수", "status": "반려"}
+{"row": 122, "case_id": "SYN-IT-IAM-0123", "category": "사내 계정·그룹웨어", "title": "메일 시스템 겸직자 추가 권한", "status": "진행 중"}
+{"row": 123, "case_id": "SYN-IT-VPN-0124", "category": "VPN·원격접속", "title": "협력사 원격접속 게이트웨이 재택근무 VPN 신규 신청", "status": "완료"}
+{"row": 124, "case_id": "SYN-IT-SW-0125", "category": "프로그램 설치", "title": "VDI 표준 이미지 통계 분석 도구 설치", "status": "완료"}
+{"row": 125, "case_id": "SYN-IT-SRV-0126", "category": "서버 접근·작업", "title": "운영 WAS 운영 서버 로그 조회", "status": "완료"}
+{"row": 126, "case_id": "SYN-IT-NET-0127", "category": "방화벽·네트워크", "title": "내부 방화벽 로드밸런서 대상 추가", "status": "보완 후 완료"}
+{"row": 127, "case_id": "SYN-IT-CHG-0128", "category": "배포·변경관리", "title": "보험금 지급 시스템 설정값 변경", "status": "반려"}
+{"row": 128, "case_id": "SYN-IT-BAT-0129", "category": "배치·인터페이스 장애", "title": "대외 신용정보 연계 배치 실패 재처리", "status": "진행 중"}
+{"row": 129, "case_id": "SYN-IT-DAT-0130", "category": "개인정보·데이터 추출", "title": "파일전송 시스템 개인정보 반출 요청", "status": "완료"}
+{"row": 130, "case_id": "SYN-IT-CRT-0131", "category": "인증서·암호화키", "title": "대외기관 연계 서버 인증서 갱신", "status": "완료"}
+{"row": 131, "case_id": "SYN-IT-INC-0132", "category": "IT 장애·문의", "title": "계약관리 시스템 간헐적 세션 종료", "status": "보완 후 완료"}
+{"row": 132, "case_id": "SYN-IT-DBA-0133", "category": "DB 계정·권한", "title": "고객정보계 DB 권한 기간 연장", "status": "반려"}
+{"row": 133, "case_id": "SYN-IT-IAM-0134", "category": "사내 계정·그룹웨어", "title": "통합 IAM 조직 이동에 따른 권한 변경", "status": "진행 중"}
+{"row": 134, "case_id": "SYN-IT-VPN-0135", "category": "VPN·원격접속", "title": "협력사 원격접속 게이트웨이 원격접속 기간 연장", "status": "완료"}
+{"row": 135, "case_id": "SYN-IT-SW-0136", "category": "프로그램 설치", "title": "VDI 표준 이미지 파일 압축 프로그램 설치", "status": "완료"}
+{"row": 136, "case_id": "SYN-IT-SRV-0137", "category": "서버 접근·작업", "title": "배치 서버 서버 SSH 권한 신청", "status": "완료"}
+{"row": 137, "case_id": "SYN-IT-NET-0138", "category": "방화벽·네트워크", "title": "내부 방화벽 DNS 레코드 등록", "status": "보완 후 완료"}
+{"row": 138, "case_id": "SYN-IT-CHG-0139", "category": "배포·변경관리", "title": "보험금 지급 시스템 긴급 오류 수정 배포", "status": "반려"}
+{"row": 139, "case_id": "SYN-IT-BAT-0140", "category": "배치·인터페이스 장애", "title": "대외 신용정보 연계 재처리 권한 신청", "status": "진행 중"}
+{"row": 140, "case_id": "SYN-IT-DAT-0141", "category": "개인정보·데이터 추출", "title": "고객정보계 외부 제출 자료 생성", "status": "완료"}
+{"row": 141, "case_id": "SYN-IT-CRT-0142", "category": "인증서·암호화키", "title": "웹 서버 TLS 인증서 신규 발급", "status": "완료"}
+{"row": 142, "case_id": "SYN-IT-INC-0143", "category": "IT 장애·문의", "title": "보험금 지급 시스템 출력물 생성 실패", "status": "완료"}
+{"row": 143, "case_id": "SYN-IT-DBA-0144", "category": "DB 계정·권한", "title": "데이터웨어하우스 계정 잠금 해제", "status": "반려"}
+{"row": 144, "case_id": "SYN-IT-IAM-0145", "category": "사내 계정·그룹웨어", "title": "통합 IAM 신규 입사자 계정 생성", "status": "진행 중"}
+{"row": 145, "case_id": "SYN-IT-VPN-0146", "category": "VPN·원격접속", "title": "VDI 해외 출장 중 접속 허용", "status": "완료"}
+{"row": 146, "case_id": "SYN-IT-SW-0147", "category": "프로그램 설치", "title": "업무용 PC 개발 IDE 설치", "status": "완료"}
+{"row": 147, "case_id": "SYN-IT-SRV-0148", "category": "서버 접근·작업", "title": "개발 서버 임시 관리자 권한 신청", "status": "완료"}
+{"row": 148, "case_id": "SYN-IT-NET-0149", "category": "방화벽·네트워크", "title": "대외계 방화벽 방화벽 정책 기간 연장", "status": "보완 후 완료"}
+{"row": 149, "case_id": "SYN-IT-CHG-0150", "category": "배포·변경관리", "title": "고객 포털 정기 운영 배포", "status": "반려"}
+{"row": 150, "case_id": "SYN-IT-BAT-0151", "category": "배치·인터페이스 장애", "title": "회계 전송 인터페이스 마감 배치 지연 대응", "status": "진행 중"}
+{"row": 151, "case_id": "SYN-IT-DAT-0152", "category": "개인정보·데이터 추출", "title": "고객정보계 민원 확인용 고객정보 조회", "status": "완료"}
+{"row": 152, "case_id": "SYN-IT-CRT-0153", "category": "인증서·암호화키", "title": "웹 서버 만료 인증서 긴급 교체", "status": "완료"}
+{"row": 153, "case_id": "SYN-IT-INC-0154", "category": "IT 장애·문의", "title": "보험금 지급 시스템 업무 화면 오류", "status": "완료"}
+{"row": 154, "case_id": "SYN-IT-DBA-0155", "category": "DB 계정·권한", "title": "계약계 DB 운영 DB 긴급 조회 권한", "status": "보완 후 완료"}
+{"row": 155, "case_id": "SYN-IT-IAM-0156", "category": "사내 계정·그룹웨어", "title": "그룹웨어 퇴직자 계정 종료", "status": "반려"}
+{"row": 156, "case_id": "SYN-IT-VPN-0157", "category": "VPN·원격접속", "title": "VDI VPN 접속 오류", "status": "완료"}
+{"row": 157, "case_id": "SYN-IT-SW-0158", "category": "프로그램 설치", "title": "업무용 PC DB 접속 도구 설치", "status": "완료"}
+{"row": 158, "case_id": "SYN-IT-SRV-0159", "category": "서버 접근·작업", "title": "개발 서버 서버 재기동 요청", "status": "완료"}
+{"row": 159, "case_id": "SYN-IT-NET-0160", "category": "방화벽·네트워크", "title": "대외계 방화벽 대외기관 IP 허용", "status": "보완 후 완료"}
+{"row": 160, "case_id": "SYN-IT-CHG-0161", "category": "배포·변경관리", "title": "고객 포털 배포 롤백", "status": "반려"}
+{"row": 161, "case_id": "SYN-IT-BAT-0162", "category": "배치·인터페이스 장애", "title": "보험료 수납 배치 중복 전송 점검", "status": "진행 중"}
+{"row": 162, "case_id": "SYN-IT-DAT-0163", "category": "개인정보·데이터 추출", "title": "데이터웨어하우스 업무 분석용 데이터 추출", "status": "완료"}
+{"row": 163, "case_id": "SYN-IT-CRT-0164", "category": "인증서·암호화키", "title": "전자서명 시스템 암호화키 접근 신청", "status": "완료"}
+{"row": 164, "case_id": "SYN-IT-INC-0165", "category": "IT 장애·문의", "title": "사내 포털 화면 응답 지연", "status": "완료"}
+{"row": 165, "case_id": "SYN-IT-DBA-0166", "category": "DB 계정·권한", "title": "계약계 DB 신규 조회 계정 발급", "status": "보완 후 완료"}
+{"row": 166, "case_id": "SYN-IT-IAM-0167", "category": "사내 계정·그룹웨어", "title": "그룹웨어 휴면 계정 복구", "status": "반려"}
+{"row": 167, "case_id": "SYN-IT-VPN-0168", "category": "VPN·원격접속", "title": "사내 VPN 협력사 기간제 원격접속", "status": "진행 중"}
+{"row": 168, "case_id": "SYN-IT-SW-0169", "category": "프로그램 설치", "title": "업무용 PC 승인되지 않은 프로그램 예외 설치", "status": "완료"}
+{"row": 169, "case_id": "SYN-IT-SRV-0170", "category": "서버 접근·작업", "title": "검증 서버 정기점검 작업 권한", "status": "완료"}
+{"row": 170, "case_id": "SYN-IT-NET-0171", "category": "방화벽·네트워크", "title": "로드밸런서 서버 간 포트 오픈", "status": "보완 후 완료"}
+{"row": 171, "case_id": "SYN-IT-CHG-0172", "category": "배포·변경관리", "title": "모바일 앱 백엔드 DB 스키마 변경", "status": "반려"}
+{"row": 172, "case_id": "SYN-IT-BAT-0173", "category": "배치·인터페이스 장애", "title": "보험료 수납 배치 전문 미수신 확인", "status": "진행 중"}
+{"row": 173, "case_id": "SYN-IT-DAT-0174", "category": "개인정보·데이터 추출", "title": "데이터웨어하우스 추출 파일 재전송", "status": "완료"}
+{"row": 174, "case_id": "SYN-IT-CRT-0175", "category": "인증서·암호화키", "title": "전자서명 시스템 대외기관 공개키 교체", "status": "완료"}
+{"row": 175, "case_id": "SYN-IT-INC-0176", "category": "IT 장애·문의", "title": "콜센터 시스템 로그인 불가", "status": "완료"}
+{"row": 176, "case_id": "SYN-IT-DBA-0177", "category": "DB 계정·권한", "title": "보상계 DB 퇴직자 계정 회수", "status": "보완 후 완료"}
+{"row": 177, "case_id": "SYN-IT-IAM-0178", "category": "사내 계정·그룹웨어", "title": "Active Directory 겸직자 추가 권한", "status": "반려"}
+{"row": 178, "case_id": "SYN-IT-VPN-0179", "category": "VPN·원격접속", "title": "사내 VPN 재택근무 VPN 신규 신청", "status": "진행 중"}
+{"row": 179, "case_id": "SYN-IT-SW-0180", "category": "프로그램 설치", "title": "개발자 PC 통계 분석 도구 설치", "status": "완료"}
+{"row": 180, "case_id": "SYN-IT-SRV-0181", "category": "서버 접근·작업", "title": "검증 서버 운영 서버 로그 조회", "status": "완료"}
+{"row": 181, "case_id": "SYN-IT-NET-0182", "category": "방화벽·네트워크", "title": "로드밸런서 로드밸런서 대상 추가", "status": "완료"}
+{"row": 182, "case_id": "SYN-IT-CHG-0183", "category": "배포·변경관리", "title": "계약관리 시스템 설정값 변경", "status": "반려"}
+{"row": 183, "case_id": "SYN-IT-BAT-0184", "category": "배치·인터페이스 장애", "title": "보험금 지급 배치 배치 실패 재처리", "status": "진행 중"}
+{"row": 184, "case_id": "SYN-IT-DAT-0185", "category": "개인정보·데이터 추출", "title": "분석 샌드박스 개인정보 반출 요청", "status": "완료"}
+{"row": 185, "case_id": "SYN-IT-CRT-0186", "category": "인증서·암호화키", "title": "API 게이트웨이 인증서 갱신", "status": "완료"}
+{"row": 186, "case_id": "SYN-IT-INC-0187", "category": "IT 장애·문의", "title": "콜센터 시스템 간헐적 세션 종료", "status": "완료"}
+{"row": 187, "case_id": "SYN-IT-DBA-0188", "category": "DB 계정·권한", "title": "보상계 DB 권한 기간 연장", "status": "보완 후 완료"}
+{"row": 188, "case_id": "SYN-IT-IAM-0189", "category": "사내 계정·그룹웨어", "title": "Active Directory 조직 이동에 따른 권한 변경", "status": "반려"}
+{"row": 189, "case_id": "SYN-IT-VPN-0190", "category": "VPN·원격접속", "title": "사내 VPN 원격접속 기간 연장", "status": "진행 중"}
+{"row": 190, "case_id": "SYN-IT-SW-0191", "category": "프로그램 설치", "title": "개발자 PC 파일 압축 프로그램 설치", "status": "완료"}
+{"row": 191, "case_id": "SYN-IT-SRV-0192", "category": "서버 접근·작업", "title": "운영 WAS 서버 SSH 권한 신청", "status": "완료"}
+{"row": 192, "case_id": "SYN-IT-NET-0193", "category": "방화벽·네트워크", "title": "사내 DNS DNS 레코드 등록", "status": "완료"}
+{"row": 193, "case_id": "SYN-IT-CHG-0194", "category": "배포·변경관리", "title": "계약관리 시스템 긴급 오류 수정 배포", "status": "보완 후 완료"}
+{"row": 194, "case_id": "SYN-IT-BAT-0195", "category": "배치·인터페이스 장애", "title": "보험금 지급 배치 재처리 권한 신청", "status": "반려"}
+{"row": 195, "case_id": "SYN-IT-DAT-0196", "category": "개인정보·데이터 추출", "title": "분석 샌드박스 외부 제출 자료 생성", "status": "완료"}
+{"row": 196, "case_id": "SYN-IT-CRT-0197", "category": "인증서·암호화키", "title": "대외기관 연계 서버 TLS 인증서 신규 발급", "status": "완료"}
+{"row": 197, "case_id": "SYN-IT-INC-0198", "category": "IT 장애·문의", "title": "계약관리 시스템 출력물 생성 실패", "status": "완료"}
+{"row": 198, "case_id": "SYN-IT-DBA-0199", "category": "DB 계정·권한", "title": "고객정보계 DB 계정 잠금 해제", "status": "보완 후 완료"}
+{"row": 199, "case_id": "SYN-IT-IAM-0200", "category": "사내 계정·그룹웨어", "title": "메일 시스템 신규 입사자 계정 생성", "status": "반려"}
+{"row": 200, "case_id": "SYN-IT-VPN-0201", "category": "VPN·원격접속", "title": "협력사 원격접속 게이트웨이 해외 출장 중 접속 허용", "status": "진행 중"}
+{"row": 201, "case_id": "SYN-IT-SW-0202", "category": "프로그램 설치", "title": "VDI 표준 이미지 개발 IDE 설치", "status": "완료"}
+{"row": 202, "case_id": "SYN-IT-SRV-0203", "category": "서버 접근·작업", "title": "운영 WAS 임시 관리자 권한 신청", "status": "완료"}
+{"row": 203, "case_id": "SYN-IT-NET-0204", "category": "방화벽·네트워크", "title": "내부 방화벽 방화벽 정책 기간 연장", "status": "완료"}
+{"row": 204, "case_id": "SYN-IT-CHG-0205", "category": "배포·변경관리", "title": "보험금 지급 시스템 정기 운영 배포", "status": "보완 후 완료"}
+{"row": 205, "case_id": "SYN-IT-BAT-0206", "category": "배치·인터페이스 장애", "title": "대외 신용정보 연계 마감 배치 지연 대응", "status": "반려"}
+{"row": 206, "case_id": "SYN-IT-DAT-0207", "category": "개인정보·데이터 추출", "title": "파일전송 시스템 민원 확인용 고객정보 조회", "status": "진행 중"}
+{"row": 207, "case_id": "SYN-IT-CRT-0208", "category": "인증서·암호화키", "title": "대외기관 연계 서버 만료 인증서 긴급 교체", "status": "완료"}
+{"row": 208, "case_id": "SYN-IT-INC-0209", "category": "IT 장애·문의", "title": "계약관리 시스템 업무 화면 오류", "status": "완료"}
+{"row": 209, "case_id": "SYN-IT-DBA-0210", "category": "DB 계정·권한", "title": "고객정보계 DB 운영 DB 긴급 조회 권한", "status": "보완 후 완료"}
+{"row": 210, "case_id": "SYN-IT-IAM-0211", "category": "사내 계정·그룹웨어", "title": "통합 IAM 퇴직자 계정 종료", "status": "반려"}
+{"row": 211, "case_id": "SYN-IT-VPN-0212", "category": "VPN·원격접속", "title": "협력사 원격접속 게이트웨이 VPN 접속 오류", "status": "진행 중"}
+{"row": 212, "case_id": "SYN-IT-SW-0213", "category": "프로그램 설치", "title": "VDI 표준 이미지 DB 접속 도구 설치", "status": "완료"}
+{"row": 213, "case_id": "SYN-IT-SRV-0214", "category": "서버 접근·작업", "title": "배치 서버 서버 재기동 요청", "status": "완료"}
+{"row": 214, "case_id": "SYN-IT-NET-0215", "category": "방화벽·네트워크", "title": "내부 방화벽 대외기관 IP 허용", "status": "완료"}
+{"row": 215, "case_id": "SYN-IT-CHG-0216", "category": "배포·변경관리", "title": "보험금 지급 시스템 배포 롤백", "status": "보완 후 완료"}
+{"row": 216, "case_id": "SYN-IT-BAT-0217", "category": "배치·인터페이스 장애", "title": "대외 신용정보 연계 중복 전송 점검", "status": "반려"}
+{"row": 217, "case_id": "SYN-IT-DAT-0218", "category": "개인정보·데이터 추출", "title": "고객정보계 업무 분석용 데이터 추출", "status": "진행 중"}
+{"row": 218, "case_id": "SYN-IT-CRT-0219", "category": "인증서·암호화키", "title": "웹 서버 암호화키 접근 신청", "status": "완료"}
+{"row": 219, "case_id": "SYN-IT-INC-0220", "category": "IT 장애·문의", "title": "보험금 지급 시스템 화면 응답 지연", "status": "완료"}
+{"row": 220, "case_id": "SYN-IT-DBA-0221", "category": "DB 계정·권한", "title": "데이터웨어하우스 신규 조회 계정 발급", "status": "완료"}
+{"row": 221, "case_id": "SYN-IT-IAM-0222", "category": "사내 계정·그룹웨어", "title": "통합 IAM 휴면 계정 복구", "status": "반려"}
+{"row": 222, "case_id": "SYN-IT-VPN-0223", "category": "VPN·원격접속", "title": "VDI 협력사 기간제 원격접속", "status": "진행 중"}
+{"row": 223, "case_id": "SYN-IT-SW-0224", "category": "프로그램 설치", "title": "업무용 PC 승인되지 않은 프로그램 예외 설치", "status": "완료"}
+{"row": 224, "case_id": "SYN-IT-SRV-0225", "category": "서버 접근·작업", "title": "개발 서버 정기점검 작업 권한", "status": "완료"}
+{"row": 225, "case_id": "SYN-IT-NET-0226", "category": "방화벽·네트워크", "title": "대외계 방화벽 서버 간 포트 오픈", "status": "완료"}
+{"row": 226, "case_id": "SYN-IT-CHG-0227", "category": "배포·변경관리", "title": "고객 포털 DB 스키마 변경", "status": "보완 후 완료"}
+{"row": 227, "case_id": "SYN-IT-BAT-0228", "category": "배치·인터페이스 장애", "title": "회계 전송 인터페이스 전문 미수신 확인", "status": "반려"}
+{"row": 228, "case_id": "SYN-IT-DAT-0229", "category": "개인정보·데이터 추출", "title": "고객정보계 추출 파일 재전송", "status": "진행 중"}
+{"row": 229, "case_id": "SYN-IT-CRT-0230", "category": "인증서·암호화키", "title": "웹 서버 대외기관 공개키 교체", "status": "완료"}
+{"row": 230, "case_id": "SYN-IT-INC-0231", "category": "IT 장애·문의", "title": "보험금 지급 시스템 로그인 불가", "status": "완료"}
+{"row": 231, "case_id": "SYN-IT-DBA-0232", "category": "DB 계정·권한", "title": "계약계 DB 퇴직자 계정 회수", "status": "완료"}
+{"row": 232, "case_id": "SYN-IT-IAM-0233", "category": "사내 계정·그룹웨어", "title": "그룹웨어 겸직자 추가 권한", "status": "보완 후 완료"}
+{"row": 233, "case_id": "SYN-IT-VPN-0234", "category": "VPN·원격접속", "title": "VDI 재택근무 VPN 신규 신청", "status": "반려"}
+{"row": 234, "case_id": "SYN-IT-SW-0235", "category": "프로그램 설치", "title": "업무용 PC 통계 분석 도구 설치", "status": "완료"}
+{"row": 235, "case_id": "SYN-IT-SRV-0236", "category": "서버 접근·작업", "title": "개발 서버 운영 서버 로그 조회", "status": "완료"}
+{"row": 236, "case_id": "SYN-IT-NET-0237", "category": "방화벽·네트워크", "title": "대외계 방화벽 로드밸런서 대상 추가", "status": "완료"}
+{"row": 237, "case_id": "SYN-IT-CHG-0238", "category": "배포·변경관리", "title": "고객 포털 설정값 변경", "status": "보완 후 완료"}
+{"row": 238, "case_id": "SYN-IT-BAT-0239", "category": "배치·인터페이스 장애", "title": "보험료 수납 배치 배치 실패 재처리", "status": "반려"}
+{"row": 239, "case_id": "SYN-IT-DAT-0240", "category": "개인정보·데이터 추출", "title": "데이터웨어하우스 개인정보 반출 요청", "status": "진행 중"}
+{"row": 240, "case_id": "SYN-IT-CRT-0241", "category": "인증서·암호화키", "title": "전자서명 시스템 인증서 갱신", "status": "완료"}
+{"row": 241, "case_id": "SYN-IT-INC-0242", "category": "IT 장애·문의", "title": "사내 포털 간헐적 세션 종료", "status": "완료"}
+{"row": 242, "case_id": "SYN-IT-DBA-0243", "category": "DB 계정·권한", "title": "계약계 DB 권한 기간 연장", "status": "완료"}
+{"row": 243, "case_id": "SYN-IT-IAM-0244", "category": "사내 계정·그룹웨어", "title": "그룹웨어 조직 이동에 따른 권한 변경", "status": "보완 후 완료"}
+{"row": 244, "case_id": "SYN-IT-VPN-0245", "category": "VPN·원격접속", "title": "사내 VPN 원격접속 기간 연장", "status": "반려"}
+{"row": 245, "case_id": "SYN-IT-SW-0246", "category": "프로그램 설치", "title": "업무용 PC 파일 압축 프로그램 설치", "status": "진행 중"}
+{"row": 246, "case_id": "SYN-IT-SRV-0247", "category": "서버 접근·작업", "title": "검증 서버 서버 SSH 권한 신청", "status": "완료"}
+{"row": 247, "case_id": "SYN-IT-NET-0248", "category": "방화벽·네트워크", "title": "로드밸런서 DNS 레코드 등록", "status": "완료"}
+{"row": 248, "case_id": "SYN-IT-CHG-0249", "category": "배포·변경관리", "title": "모바일 앱 백엔드 긴급 오류 수정 배포", "status": "보완 후 완료"}
+{"row": 249, "case_id": "SYN-IT-BAT-0250", "category": "배치·인터페이스 장애", "title": "보험료 수납 배치 재처리 권한 신청", "status": "반려"}
+{"row": 250, "case_id": "SYN-IT-DAT-0251", "category": "개인정보·데이터 추출", "title": "데이터웨어하우스 외부 제출 자료 생성", "status": "진행 중"}
+{"row": 251, "case_id": "SYN-IT-CRT-0252", "category": "인증서·암호화키", "title": "전자서명 시스템 TLS 인증서 신규 발급", "status": "완료"}
+{"row": 252, "case_id": "SYN-IT-INC-0253", "category": "IT 장애·문의", "title": "콜센터 시스템 출력물 생성 실패", "status": "완료"}
+{"row": 253, "case_id": "SYN-IT-DBA-0254", "category": "DB 계정·권한", "title": "보상계 DB 계정 잠금 해제", "status": "완료"}
+{"row": 254, "case_id": "SYN-IT-IAM-0255", "category": "사내 계정·그룹웨어", "title": "Active Directory 신규 입사자 계정 생성", "status": "보완 후 완료"}
+{"row": 255, "case_id": "SYN-IT-VPN-0256", "category": "VPN·원격접속", "title": "사내 VPN 해외 출장 중 접속 허용", "status": "반려"}
+{"row": 256, "case_id": "SYN-IT-SW-0257", "category": "프로그램 설치", "title": "개발자 PC 개발 IDE 설치", "status": "진행 중"}
+{"row": 257, "case_id": "SYN-IT-SRV-0258", "category": "서버 접근·작업", "title": "검증 서버 임시 관리자 권한 신청", "status": "완료"}
+{"row": 258, "case_id": "SYN-IT-NET-0259", "category": "방화벽·네트워크", "title": "로드밸런서 방화벽 정책 기간 연장", "status": "완료"}
+{"row": 259, "case_id": "SYN-IT-CHG-0260", "category": "배포·변경관리", "title": "계약관리 시스템 정기 운영 배포", "status": "완료"}
+{"row": 260, "case_id": "SYN-IT-BAT-0261", "category": "배치·인터페이스 장애", "title": "보험금 지급 배치 마감 배치 지연 대응", "status": "반려"}
+{"row": 261, "case_id": "SYN-IT-DAT-0262", "category": "개인정보·데이터 추출", "title": "분석 샌드박스 민원 확인용 고객정보 조회", "status": "진행 중"}
+{"row": 262, "case_id": "SYN-IT-CRT-0263", "category": "인증서·암호화키", "title": "API 게이트웨이 만료 인증서 긴급 교체", "status": "완료"}
+{"row": 263, "case_id": "SYN-IT-INC-0264", "category": "IT 장애·문의", "title": "콜센터 시스템 업무 화면 오류", "status": "완료"}
+{"row": 264, "case_id": "SYN-IT-DBA-0265", "category": "DB 계정·권한", "title": "보상계 DB 운영 DB 긴급 조회 권한", "status": "완료"}
+{"row": 265, "case_id": "SYN-IT-IAM-0266", "category": "사내 계정·그룹웨어", "title": "Active Directory 퇴직자 계정 종료", "status": "보완 후 완료"}
+{"row": 266, "case_id": "SYN-IT-VPN-0267", "category": "VPN·원격접속", "title": "사내 VPN VPN 접속 오류", "status": "반려"}
+{"row": 267, "case_id": "SYN-IT-SW-0268", "category": "프로그램 설치", "title": "개발자 PC DB 접속 도구 설치", "status": "진행 중"}
+{"row": 268, "case_id": "SYN-IT-SRV-0269", "category": "서버 접근·작업", "title": "운영 WAS 서버 재기동 요청", "status": "완료"}
+{"row": 269, "case_id": "SYN-IT-NET-0270", "category": "방화벽·네트워크", "title": "사내 DNS 대외기관 IP 허용", "status": "완료"}
+{"row": 270, "case_id": "SYN-IT-CHG-0271", "category": "배포·변경관리", "title": "계약관리 시스템 배포 롤백", "status": "완료"}
+{"row": 271, "case_id": "SYN-IT-BAT-0272", "category": "배치·인터페이스 장애", "title": "보험금 지급 배치 중복 전송 점검", "status": "보완 후 완료"}
+{"row": 272, "case_id": "SYN-IT-DAT-0273", "category": "개인정보·데이터 추출", "title": "분석 샌드박스 업무 분석용 데이터 추출", "status": "반려"}
+{"row": 273, "case_id": "SYN-IT-CRT-0274", "category": "인증서·암호화키", "title": "대외기관 연계 서버 암호화키 접근 신청", "status": "완료"}
+{"row": 274, "case_id": "SYN-IT-INC-0275", "category": "IT 장애·문의", "title": "계약관리 시스템 화면 응답 지연", "status": "완료"}
+{"row": 275, "case_id": "SYN-IT-DBA-0276", "category": "DB 계정·권한", "title": "고객정보계 DB 신규 조회 계정 발급", "status": "완료"}
+{"row": 276, "case_id": "SYN-IT-IAM-0277", "category": "사내 계정·그룹웨어", "title": "메일 시스템 휴면 계정 복구", "status": "보완 후 완료"}
+{"row": 277, "case_id": "SYN-IT-VPN-0278", "category": "VPN·원격접속", "title": "협력사 원격접속 게이트웨이 협력사 기간제 원격접속", "status": "반려"}
+{"row": 278, "case_id": "SYN-IT-SW-0279", "category": "프로그램 설치", "title": "VDI 표준 이미지 승인되지 않은 프로그램 예외 설치", "status": "진행 중"}
+{"row": 279, "case_id": "SYN-IT-SRV-0280", "category": "서버 접근·작업", "title": "운영 WAS 정기점검 작업 권한", "status": "완료"}
+{"row": 280, "case_id": "SYN-IT-NET-0281", "category": "방화벽·네트워크", "title": "내부 방화벽 서버 간 포트 오픈", "status": "완료"}
+{"row": 281, "case_id": "SYN-IT-CHG-0282", "category": "배포·변경관리", "title": "보험금 지급 시스템 DB 스키마 변경", "status": "완료"}
+{"row": 282, "case_id": "SYN-IT-BAT-0283", "category": "배치·인터페이스 장애", "title": "대외 신용정보 연계 전문 미수신 확인", "status": "보완 후 완료"}
+{"row": 283, "case_id": "SYN-IT-DAT-0284", "category": "개인정보·데이터 추출", "title": "파일전송 시스템 추출 파일 재전송", "status": "반려"}
+{"row": 284, "case_id": "SYN-IT-CRT-0285", "category": "인증서·암호화키", "title": "대외기관 연계 서버 대외기관 공개키 교체", "status": "진행 중"}
+{"row": 285, "case_id": "SYN-IT-INC-0286", "category": "IT 장애·문의", "title": "계약관리 시스템 로그인 불가", "status": "완료"}
+{"row": 286, "case_id": "SYN-IT-DBA-0287", "category": "DB 계정·권한", "title": "고객정보계 DB 퇴직자 계정 회수", "status": "완료"}
+{"row": 287, "case_id": "SYN-IT-IAM-0288", "category": "사내 계정·그룹웨어", "title": "통합 IAM 겸직자 추가 권한", "status": "보완 후 완료"}
+{"row": 288, "case_id": "SYN-IT-VPN-0289", "category": "VPN·원격접속", "title": "협력사 원격접속 게이트웨이 재택근무 VPN 신규 신청", "status": "반려"}
+{"row": 289, "case_id": "SYN-IT-SW-0290", "category": "프로그램 설치", "title": "VDI 표준 이미지 통계 분석 도구 설치", "status": "진행 중"}
+{"row": 290, "case_id": "SYN-IT-SRV-0291", "category": "서버 접근·작업", "title": "배치 서버 운영 서버 로그 조회", "status": "완료"}
+{"row": 291, "case_id": "SYN-IT-NET-0292", "category": "방화벽·네트워크", "title": "내부 방화벽 로드밸런서 대상 추가", "status": "완료"}
+{"row": 292, "case_id": "SYN-IT-CHG-0293", "category": "배포·변경관리", "title": "보험금 지급 시스템 설정값 변경", "status": "완료"}
+{"row": 293, "case_id": "SYN-IT-BAT-0294", "category": "배치·인터페이스 장애", "title": "대외 신용정보 연계 배치 실패 재처리", "status": "보완 후 완료"}
+{"row": 294, "case_id": "SYN-IT-DAT-0295", "category": "개인정보·데이터 추출", "title": "고객정보계 개인정보 반출 요청", "status": "반려"}
+{"row": 295, "case_id": "SYN-IT-CRT-0296", "category": "인증서·암호화키", "title": "웹 서버 인증서 갱신", "status": "진행 중"}
+{"row": 296, "case_id": "SYN-IT-INC-0297", "category": "IT 장애·문의", "title": "보험금 지급 시스템 간헐적 세션 종료", "status": "완료"}
+{"row": 297, "case_id": "SYN-IT-DBA-0298", "category": "DB 계정·권한", "title": "데이터웨어하우스 권한 기간 연장", "status": "완료"}
+{"row": 298, "case_id": "SYN-IT-IAM-0299", "category": "사내 계정·그룹웨어", "title": "통합 IAM 조직 이동에 따른 권한 변경", "status": "완료"}
+{"row": 299, "case_id": "SYN-IT-VPN-0300", "category": "VPN·원격접속", "title": "VDI 원격접속 기간 연장", "status": "반려"}

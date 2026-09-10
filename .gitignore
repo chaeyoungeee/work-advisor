@@ -1,0 +1,22 @@
+# Python 가상환경 (OS/경로 의존적 — clone 후 새로 생성)
+.venv/
+venv/
+
+# 파이썬 캐시
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# 임베딩 모델 캐시 (최초 실행 시 자동 다운로드)
+.cache/
+*.pt
+*.safetensors
+
+# OS 잡파일
+.DS_Store
+
+# 생성 결과물 (필요 시 재생성)
+reports/
+
+# 앱 첨부/작업 폴더
+.deepwork/
