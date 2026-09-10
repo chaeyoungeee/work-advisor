@@ -1,6 +1,6 @@
 # workcase-agent — 보험사 IT 업무 사례 검색 Agent
 
-과거 보험사 사내 IT 업무 사례(합성 300건)를 벡터 검색해, 신규 요청에 대한
+과거 보험사 사내 IT 업무 사례(합성 303건)를 하이브리드 검색(벡터 + BM25)해, 신규 요청에 대한
 **처리 절차 · 필요 문서 · 결재선 · 설치 프로그램 · 확인 사항**을 근거 기반으로 안내한다.
 
 한국어 질의를 그대로 임베딩(multilingual-e5)해 FAISS 로 검색한다. 외부 LLM API 없이
@@ -35,7 +35,7 @@ pip install -r requirements.txt
 데이터만 있고 인덱스가 없거나, 데이터를 바꿨다면 재생성한다:
 
 ```bash
-# 입력: data/processed/insurance_it_cases.jsonl (300건)
+# 입력: data/processed/insurance_it_cases.jsonl (사례 303건 + 담당자 디렉터리 1줄)
 # 출력: indexes/workcases.faiss, metadata.jsonl, manifest.json
 python scripts/create_index.py
 ```
@@ -85,6 +85,20 @@ python scripts/show_case.py SYN-IT-DBA-0232 --json
 python scripts/ask.py "질문" --top-k 4 --json
 ```
 
+## 4-5. 3턴 시연 시나리오
+
+계정 발급 → 접속 장애 진단 → 정책 변경 요청처 안내로 이어지는 후속 흐름 예시.
+각 턴의 질의를 채팅에 입력하면 해당 보고서가 생성된다.
+
+| 턴 | 입력 질의 | 검색 결과(핵심) | 답변 형태 |
+|---|---|---|---|
+| 1턴 | 계약계 DB 신규 조회 계정을 발급받으려고 하는데 어떻게 해야 해? | SYN-IT-DBA-0166·0001 (DB 계정·권한, 성공률 80%) | 계정 발급 절차 보고서 (결재선: 신청자 팀장 → 시스템 책임자) |
+| 2턴 | 보안접속 에이전트 연결이 계속 끊기는데 어떡해야 해 | SYN-IT-INC-0301·0303·0302 (IT 장애·문의) | 장애 진단 보고서 (MFA 세션 만료 / 유휴 타임아웃 / 단말 정책 3원인) |
+| 3턴 | MFA 세션의 재인증 주기를 늘리려면 어떻게 해야 해? | 담당자 디렉터리 '인증·세션 정책' | 담당자 안내 (인증인프라팀 · 내선 3320 · iam-auth@example.local) |
+
+> 3턴은 개별 장애 처리 사례가 아니라 정책 변경 요청이므로, 검색 사례로 답하지 않고
+> 담당자 디렉터리(`load_contacts()`)로 요청처를 안내한다.
+
 ## 5. 다룰 수 있는 업무 영역 (11개)
 
 DB 계정·권한 / 사내 계정·그룹웨어 / VPN·원격접속 / 프로그램 설치 /
@@ -96,7 +110,7 @@ DB 계정·권한 / 사내 계정·그룹웨어 / VPN·원격접속 / 프로그�
 ```
 work-advisor/
 ├── requirements.txt
-├── data/processed/insurance_it_cases.jsonl   # 합성 사례 300건 (약 1MB)
+├── data/processed/insurance_it_cases.jsonl   # 합성 사례 303건 + 담당자 디렉터리 1줄 (약 1MB)
 ├── indexes/                                  # FAISS 인덱스 + 메타데이터
 │   ├── workcases.faiss
 │   ├── metadata.jsonl
