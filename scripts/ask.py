@@ -23,6 +23,13 @@ from workcase_agent.search import search_cases, get_contact  # noqa: E402
 # 정상 질의 vector_score ≈ 0.9+, 무관 질의 ≈ 0.78 이하.
 WEAK_MATCH_THRESHOLD = 0.83
 
+# 보조 신호: 벡터 유사도는 임계값을 넘겼지만(경계값) 키워드가 사실상
+# 하나도 맞지 않는 경우를 잡아낸다. bm25_norm 은 전체 사례에 대한 min-max
+# 정규화 값이라, 1위 사례가 이 값 이하이면 'BM25 최하위권 = 키워드 미매칭'을
+# 뜻한다. 벡터가 문장 형식만 겹쳐 경계값(0.83~0.85)을 넘긴 오탐을 걸러낸다.
+# 정상 질의는 1위 bm25_norm 이 0.9+ 로 나오므로 오차단 위험이 낮다.
+WEAK_MATCH_BM25_FLOOR = 0.05
+
 
 def main():
     ap = argparse.ArgumentParser(description="보험사 IT 업무 유사 사례 검색")
@@ -38,9 +45,18 @@ def main():
         category=args.category, status=args.status,
     )
 
-    # 약한 매칭 판단: 결과가 없거나 최고 사례의 원본 벡터 유사도가 임계값 미만
+    # 약한 매칭 판단:
+    #  (1) 결과가 없거나
+    #  (2) 최고 사례의 원본 벡터 유사도가 임계값 미만이거나
+    #  (3) 벡터는 임계값을 넘겼지만 1위의 bm25_norm 이 바닥 수준(키워드 미매칭)
+    # (3) 은 벡터가 문장 형식만 겹쳐 경계값을 넘긴 오탐을 걸러내는 보조 신호다.
     top_vec = results[0].get("vector_score", 0.0) if results else 0.0
-    weak = (not results) or top_vec < WEAK_MATCH_THRESHOLD
+    top_bm25 = results[0].get("bm25_norm", 0.0) if results else 0.0
+    weak = bool(
+        (not results)
+        or top_vec < WEAK_MATCH_THRESHOLD
+        or top_bm25 < WEAK_MATCH_BM25_FLOOR
+    )
     # 약한 매칭이면 특정 카테고리를 신뢰하기 어려우므로 1차 창구(기본)로 안내한다.
     contact = get_contact(None) if weak else None
 
