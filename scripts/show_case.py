@@ -65,7 +65,6 @@ def main():
     print()
     line("결과", c["outcome"])
     line("기간", f"{c.get('started_at')} ~ {c.get('completed_at')}")
-    print(f"\n  ({c.get('source_note', '')})")
 
 
 if __name__ == "__main__":
