@@ -298,3 +298,6 @@
 {"row": 297, "case_id": "SYN-IT-DBA-0298", "category": "DB 계정·권한", "title": "데이터웨어하우스 권한 기간 연장", "status": "완료"}
 {"row": 298, "case_id": "SYN-IT-IAM-0299", "category": "사내 계정·그룹웨어", "title": "통합 IAM 조직 이동에 따른 권한 변경", "status": "완료"}
 {"row": 299, "case_id": "SYN-IT-VPN-0300", "category": "VPN·원격접속", "title": "VDI 원격접속 기간 연장", "status": "반려"}
+{"row": 300, "case_id": "SYN-IT-INC-0301", "category": "IT 장애·문의", "title": "보안접속 에이전트 연결 반복 끊김(세션 만료)", "status": "완료"}
+{"row": 301, "case_id": "SYN-IT-INC-0302", "category": "IT 장애·문의", "title": "보안접속 에이전트 연결 끊김(단말 보안정책 충돌)", "status": "보완 후 완료"}
+{"row": 302, "case_id": "SYN-IT-INC-0303", "category": "IT 장애·문의", "title": "보안접속 에이전트 연결 끊김(유휴 타임아웃·방화벽 세션)", "status": "진행 중"}

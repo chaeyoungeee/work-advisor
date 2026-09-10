@@ -39,15 +39,36 @@ def _minmax(vals):
     return [(v - lo) / (hi - lo) for v in vals]
 
 
+def _is_case(rec: dict) -> bool:
+    """사례 레코드 여부. contacts 등 비사례 레코드를 제외한다."""
+    return rec.get("record_type") != "contacts" and "search_text" in rec
+
+
 @lru_cache(maxsize=1)
 def _load():
-    cases = [json.loads(l) for l in CASES.read_text(encoding="utf-8").splitlines()]
+    # 사례 레코드만 사용 (contacts 등 비사례 레코드는 벡터 인덱스와 순서를 맞추기 위해 제외)
+    cases = [c for c in (json.loads(l) for l in
+                         CASES.read_text(encoding="utf-8").splitlines())
+             if _is_case(c)]
     meta = [json.loads(l) for l in META_FILE.read_text(encoding="utf-8").splitlines()]
     index = faiss.read_index(str(IDX_FILE))
     model = SentenceTransformer(MODEL_NAME)
     # BM25 는 사례 search_text 를 토큰화해 구축 (벡터 인덱스와 동일한 순서)
     bm25 = BM25Okapi([_tokenize(c["search_text"]) for c in cases])
     return cases, meta, index, model, bm25
+
+
+@lru_cache(maxsize=1)
+def load_contacts() -> dict:
+    """담당자 디렉터리(record_type=contacts) 반환. 없으면 빈 dict.
+
+    '관련 사례를 찾지 못했을 때' 채팅 에이전트가 담당 팀·연락처를 안내하는 데 쓴다.
+    """
+    for line in CASES.read_text(encoding="utf-8").splitlines():
+        rec = json.loads(line)
+        if rec.get("record_type") == "contacts":
+            return rec.get("contacts", {})
+    return {}
 
 
 def search_cases(query: str, top_k: int = 5,

@@ -1,10 +1,10 @@
 {
   "model": "intfloat/multilingual-e5-base",
   "dim": 768,
-  "num_vectors": 300,
+  "num_vectors": 303,
   "metric": "inner_product (cosine, L2-normalized)",
   "doc_prefix": "passage: ",
   "query_prefix": "query: ",
   "source_cases": "data/processed/insurance_it_cases.jsonl",
-  "created_at": "2026-09-10T09:29:15"
+  "created_at": "2026-09-10T11:13:47"
 }

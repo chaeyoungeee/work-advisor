@@ -20,9 +20,16 @@ META_FILE = IDX_DIR / "metadata.jsonl"
 MANIFEST = IDX_DIR / "manifest.json"
 
 
+def _is_case(rec: dict) -> bool:
+    """사례 레코드 여부. contacts 등 비사례 레코드를 제외한다."""
+    return rec.get("record_type") != "contacts" and "search_text" in rec
+
+
 def main():
-    cases = [json.loads(l) for l in CASES.read_text(encoding="utf-8").splitlines()]
-    print(f"[load] cases: {len(cases)}")
+    all_recs = [json.loads(l) for l in CASES.read_text(encoding="utf-8").splitlines()]
+    cases = [c for c in all_recs if _is_case(c)]
+    skipped = len(all_recs) - len(cases)
+    print(f"[load] cases: {len(cases)} (비사례 레코드 {skipped}건 제외)")
 
     print(f"[model] loading {MODEL_NAME} ...")
     t0 = time.time()
