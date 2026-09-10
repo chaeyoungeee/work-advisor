@@ -45,6 +45,27 @@ def _is_case(rec: dict) -> bool:
 
 
 @lru_cache(maxsize=1)
+def _contacts():
+    """데이터 파일의 담당자 디렉터리(contacts 레코드)를 로드."""
+    for l in CASES.read_text(encoding="utf-8").splitlines():
+        if not l.strip():
+            continue
+        rec = json.loads(l)
+        if rec.get("record_type") == "contacts":
+            return rec.get("contacts", {})
+    return {}
+
+
+def get_contact(category: Optional[str] = None):
+    """카테고리별 담당자 안내를 반환. 없으면 기본 서비스데스크."""
+    c = _contacts()
+    by_cat = c.get("by_category", {})
+    if category and category in by_cat:
+        return by_cat[category]
+    return c.get("default", {})
+
+
+@lru_cache(maxsize=1)
 def _load():
     # 사례 레코드만 사용 (contacts 등 비사례 레코드는 벡터 인덱스와 순서를 맞추기 위해 제외)
     cases = [c for c in (json.loads(l) for l in

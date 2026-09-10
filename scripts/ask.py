@@ -15,7 +15,13 @@ from pathlib import Path
 
 # src 를 import 경로에 추가
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "src"))
-from workcase_agent.search import search_cases  # noqa: E402
+from workcase_agent.search import search_cases, get_contact  # noqa: E402
+
+# 최고 사례의 원본 벡터 유사도(vector_score)가 이 값 미만이면
+# '약한 매칭'으로 보고 담당자 안내를 붙인다.
+# 하이브리드 score 는 min-max 정규화라 최상위가 항상 높으므로 판단에 쓰지 않는다.
+# 정상 질의 vector_score ≈ 0.9+, 무관 질의 ≈ 0.78 이하.
+WEAK_MATCH_THRESHOLD = 0.83
 
 
 def main():
@@ -32,13 +38,27 @@ def main():
         category=args.category, status=args.status,
     )
 
+    # 약한 매칭 판단: 결과가 없거나 최고 사례의 원본 벡터 유사도가 임계값 미만
+    top_vec = results[0].get("vector_score", 0.0) if results else 0.0
+    weak = (not results) or top_vec < WEAK_MATCH_THRESHOLD
+    # 약한 매칭이면 특정 카테고리를 신뢰하기 어려우므로 1차 창구(기본)로 안내한다.
+    contact = get_contact(None) if weak else None
+
     if args.json:
-        print(json.dumps({"query": args.query, "results": results},
-                         ensure_ascii=False))
+        print(json.dumps({
+            "query": args.query,
+            "results": results,
+            "weak_match": weak,
+            "contact": contact,
+        }, ensure_ascii=False))
         return
 
     if not results:
-        print("관련 사례를 찾지 못했습니다. 질의를 더 구체화해 주세요.")
+        print("관련 사례를 찾지 못했습니다.")
+        if contact:
+            print(f"\n담당자 안내 → {contact.get('team','')}"
+                  f" ({contact.get('contact','')})")
+            print(f"  접수: {contact.get('channel','')}")
         return
 
     print(f"질의: {args.query}")
@@ -58,6 +78,11 @@ def main():
         print(f"  주의    : {' / '.join(r['cautions'])}")
         print(f"  결과    : {r['outcome']}")
         print()
+
+    if weak and contact:
+        print("⚠ 유사도가 낮습니다. 아래 담당자에게 문의하세요.")
+        print(f"  담당 → {contact.get('team','')} ({contact.get('contact','')})")
+        print(f"  접수 : {contact.get('channel','')}")
 
 
 if __name__ == "__main__":
